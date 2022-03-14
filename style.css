@@ -69,14 +69,25 @@ h2{
 
 .text{
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     margin-top: 10px;
 }
 
+.number{
+    color: #FFBB3A;
+    font-weight: 700;
+}
 .card a{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     text-decoration: none;
-    padding: 10px 70px;   
+    width: 180px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.5px;
     background-color: #4D41C0;
     color: #fff;
     border-radius: 4px;
@@ -86,5 +97,6 @@ h2{
     font-size: 12px;
     font-weight: 400;
     color: #989898;
+    margin-bottom: 10px;
 }
 
